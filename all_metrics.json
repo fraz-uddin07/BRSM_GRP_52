@@ -1,0 +1,318 @@
+{
+    "analyze_data.py": {
+        "t_oftypes": {
+            "None": 354,
+            "instructions": 315,
+            "insights": 35,
+            "demographics": 245
+        },
+        "trial_types": {
+            "call-function": 35,
+            "html-button-response": 455,
+            "html-keyboard-response": 144,
+            "instructions": 35,
+            "survey-html-form": 210,
+            "survey-multi-choice": 35,
+            "survey-text": 35
+        },
+        "fluency_trials_found": 0
+    },
+    "explore_vft.py": {
+        "vft_trials_found": 144
+    },
+    "explore2.py": {
+        "total_subjects": 1,
+        "trial_types": {},
+        "type_of_trials": {},
+        "fluency_trial_entries": 0
+    },
+    "explore_spam.py": {
+        "subject_found": true,
+        "colours": {
+            "vft_words": 14,
+            "spam_words": 14,
+            "sample_consecutive_distances": [
+                {
+                    "w1": "red",
+                    "w2": "blue",
+                    "irt_ms": 1464.6,
+                    "dist": 0.46364391609301997
+                },
+                {
+                    "w1": "blue",
+                    "w2": "green",
+                    "irt_ms": 1505.6,
+                    "dist": 0.4431758442658645
+                },
+                {
+                    "w1": "green",
+                    "w2": "indigo",
+                    "irt_ms": 1894.6,
+                    "dist": 0.4402255073966641
+                },
+                {
+                    "w1": "indigo",
+                    "w2": "orange",
+                    "irt_ms": 1583.3,
+                    "dist": 0.46946592496314016
+                }
+            ]
+        },
+        "animals": {
+            "vft_words": 21,
+            "spam_words": 21,
+            "sample_consecutive_distances": [
+                {
+                    "w1": "lion",
+                    "w2": "tiger",
+                    "irt_ms": 1989.2,
+                    "dist": 0.030586443923614537
+                },
+                {
+                    "w1": "tiger",
+                    "w2": "girrafe",
+                    "irt_ms": 2666.4,
+                    "dist": 0.2969674391274745
+                },
+                {
+                    "w1": "girrafe",
+                    "w2": "leapord",
+                    "irt_ms": 3306.2,
+                    "dist": 0.29212008446100196
+                },
+                {
+                    "w1": "leapord",
+                    "w2": "dolhin",
+                    "irt_ms": 2273.4,
+                    "dist": 1.0495103541798776
+                }
+            ]
+        },
+        "foods": {
+            "vft_words": 15,
+            "spam_words": 15,
+            "sample_consecutive_distances": [
+                {
+                    "w1": "lays",
+                    "w2": "dal",
+                    "irt_ms": 1417.6,
+                    "dist": 0.6459548788331475
+                },
+                {
+                    "w1": "dal",
+                    "w2": "rice",
+                    "irt_ms": 3596.7,
+                    "dist": 0.05224709752983518
+                },
+                {
+                    "w1": "rice",
+                    "w2": "dosa",
+                    "irt_ms": 1226.5,
+                    "dist": 0.13164004569407894
+                },
+                {
+                    "w1": "dosa",
+                    "w2": "idli",
+                    "irt_ms": 1419.3,
+                    "dist": 0.042571841220345456
+                }
+            ]
+        }
+    },
+    "explore3.py": {
+        "raw_data_type": "<class 'dict'>",
+        "num_keys": 1,
+        "first_key_type": "<class 'dict'>"
+    },
+    "get_exact_stats.py": {
+        "mean_words_per_domain": {
+            "animals": 10.428571428571429,
+            "body-parts": 8.583333333333334,
+            "colours": 13.363636363636363,
+            "foods": 9.314285714285715
+        },
+        "std_words_per_domain": {
+            "animals": 4.597222398526375,
+            "body-parts": 3.077501339196073,
+            "colours": 3.4138754304375922,
+            "foods": 4.0928303781370765
+        },
+        "correlation_matrix": {
+            "num_words": {
+                "num_words": 1.0,
+                "hi_write": -0.16086610536104357
+            },
+            "hi_write": {
+                "num_words": -0.16086610536104357,
+                "hi_write": 1.0
+            }
+        }
+    },
+    "analyze.py": {
+        "total_vft_records_parsed": 105,
+        "domain_num_words_summary": {
+            "count": {
+                "animals": 35.0,
+                "body-parts": 24.0,
+                "colours": 11.0,
+                "foods": 35.0
+            },
+            "mean": {
+                "animals": 10.428571428571429,
+                "body-parts": 8.583333333333334,
+                "colours": 13.363636363636363,
+                "foods": 9.314285714285715
+            },
+            "std": {
+                "animals": 4.597222398526377,
+                "body-parts": 3.077501339196073,
+                "colours": 3.4138754304375922,
+                "foods": 4.0928303781370765
+            },
+            "min": {
+                "animals": 4.0,
+                "body-parts": 4.0,
+                "colours": 7.0,
+                "foods": 3.0
+            },
+            "25%": {
+                "animals": 7.0,
+                "body-parts": 6.0,
+                "colours": 12.0,
+                "foods": 7.0
+            },
+            "50%": {
+                "animals": 10.0,
+                "body-parts": 8.0,
+                "colours": 14.0,
+                "foods": 8.0
+            },
+            "75%": {
+                "animals": 12.0,
+                "body-parts": 10.25,
+                "colours": 15.0,
+                "foods": 10.5
+            },
+            "max": {
+                "animals": 23.0,
+                "body-parts": 16.0,
+                "colours": 19.0,
+                "foods": 24.0
+            }
+        },
+        "subject_level_summary": {
+            "subject_id": {
+                "count": 35.0,
+                "mean": 53937.114285714284,
+                "std": 29237.155469158264,
+                "min": 3342.0,
+                "25%": 28610.0,
+                "50%": 61476.0,
+                "75%": 78098.5,
+                "max": 95712.0
+            },
+            "num_words": {
+                "count": 35.0,
+                "mean": 9.942857142857143,
+                "std": 3.72281932861392,
+                "min": 3.6666666666666665,
+                "25%": 7.333333333333334,
+                "50%": 9.0,
+                "75%": 12.333333333333334,
+                "max": 18.333333333333332
+            },
+            "hi_write": {
+                "count": 35.0,
+                "mean": 3.4857142857142858,
+                "std": 0.9508951996262622,
+                "min": 1.0,
+                "25%": 3.0,
+                "50%": 4.0,
+                "75%": 4.0,
+                "max": 5.0
+            }
+        }
+    },
+    "report2_analysis.py": {
+        "RQ1_clusters": {
+            "mean_within_irt": 4732.071011235956,
+            "mean_between_irt": 4922.724379232506,
+            "t_stat": -0.841126012108523,
+            "p_val": 0.4005043093071752
+        },
+        "RQ2_neighborhood": {
+            "consecutive_dist_irt_r": 0.024102162315384975,
+            "consecutive_dist_irt_p": 0.47317618272049555,
+            "word_neigh_dist_irt_r": -0.11670563338468158,
+            "word_neigh_dist_irt_p": 0.00024015251498046521
+        },
+        "RQ3_fluency": {
+            "fluency_total_words_r": -0.1590878695955112,
+            "fluency_total_words_p": 0.3765327179665927,
+            "fluency_mean_irt_r": 0.3298579787459363,
+            "fluency_mean_irt_p": 0.060836767059996556,
+            "fluency_cluster_size_r": 0.09661703489267472,
+            "fluency_cluster_size_p": 0.5927356597799601,
+            "significant_alpha_0.0167": [
+                false,
+                false,
+                false
+            ]
+        }
+    },
+    "corr_matrix.py": {
+        "correlation_matrix": {
+            "Hindi_Read": {
+                "Hindi_Read": 1.0,
+                "Hindi_Write": 0.4306553772273714,
+                "Eng_Read": 0.4339115939696221,
+                "Eng_Write": 0.3982826698719508,
+                "Total_Words": -0.1289648888850204,
+                "Mean_IRT": 0.27070676021851664
+            },
+            "Hindi_Write": {
+                "Hindi_Read": 0.4306553772273714,
+                "Hindi_Write": 1.0,
+                "Eng_Read": 0.3570653632482235,
+                "Eng_Write": 0.24699096949669794,
+                "Total_Words": -0.16086610536104365,
+                "Mean_IRT": 0.2543389216740025
+            },
+            "Eng_Read": {
+                "Hindi_Read": 0.4339115939696221,
+                "Hindi_Write": 0.3570653632482235,
+                "Eng_Read": 1.0,
+                "Eng_Write": 0.862139452252651,
+                "Total_Words": -0.2102486456344452,
+                "Mean_IRT": 0.2532230599545868
+            },
+            "Eng_Write": {
+                "Hindi_Read": 0.3982826698719508,
+                "Hindi_Write": 0.24699096949669794,
+                "Eng_Read": 0.862139452252651,
+                "Eng_Write": 1.0,
+                "Total_Words": -0.2000657624169383,
+                "Mean_IRT": 0.22550828125975356
+            },
+            "Total_Words": {
+                "Hindi_Read": -0.1289648888850204,
+                "Hindi_Write": -0.16086610536104365,
+                "Eng_Read": -0.2102486456344452,
+                "Eng_Write": -0.2000657624169383,
+                "Total_Words": 1.0,
+                "Mean_IRT": -0.8893822283059702
+            },
+            "Mean_IRT": {
+                "Hindi_Read": 0.27070676021851664,
+                "Hindi_Write": 0.2543389216740025,
+                "Eng_Read": 0.2532230599545868,
+                "Eng_Write": 0.22550828125975356,
+                "Total_Words": -0.8893822283059702,
+                "Mean_IRT": 1.0
+            }
+        }
+    },
+    "analyze_subject.py": {
+        "subject_data_length": 27
+    }
+}
